@@ -41,3 +41,9 @@ function showTask(){
 }
 showTask();
 
+
+inputBox.addEventListener("keyup", function(event) {
+    if (event.key === "Enter") {
+        addTask();
+    }
+});

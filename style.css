@@ -57,6 +57,8 @@ button{
 
 ul li{
     list-style: none;
+    width: inherit;
+    overflow: auto;
     font-size: 20px;
     padding: 12px 8px 12px 50px;
     user-select: none;
